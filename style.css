@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@700&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    font-family: 'Anuphan', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#submit{
+    position: relative;
+    left: 898px;
+    width: 124px;
+    height: 48px;
+    border-radius: 41px;
+    background-color: #cc4343;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'Anuphan', sans-serif;
+}
+#submit:hover{
+    background-color: #ffacac;
+}
+#results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
